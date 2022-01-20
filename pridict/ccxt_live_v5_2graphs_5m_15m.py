@@ -20,8 +20,8 @@ weights_path = '../model/weights.h5'
 model.load_weights(weights_path)
 
 binance_futures = ccxt.binance(config={
-        'apiKey': '3vldXTBVRHRM9C3cXdWBvfa4wkyOaVFjbL91dpYfyYonXsoMraO1MXcrXaxZ8vSW',
-        'secret': 'kPL3Gl06MRTZ6tfkwWTJN9ZXT5sEQhpyV9hE5kOL0cw4OgVTPO9WadYLOagQmWx3',
+        'apiKey': 'Your-api-Key',
+        'secret': 'Your-secret',
         'enableRateLimit': True,
         'options': {'defaultType': 'future'}})
 
