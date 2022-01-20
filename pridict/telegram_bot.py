@@ -3,8 +3,8 @@ import datetime
 from telegram.ext import Updater, CommandHandler 
 import ccxt_live_v4_optimized
 
-telegram_bot_token = "1844301443:AAEpODLoD3aoiP9ip8oZESnvKGLgeRpmepM"
-telegram_chat_id = 865414448
+telegram_bot_token = "Your-token"
+telegram_chat_id = "Your-chat-id"
 updater = Updater(token=telegram_bot_token)#, use_context=True) 
 dispatcher = updater.dispatcher
 bot = telegram.Bot(token = telegram_bot_token)
