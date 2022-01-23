@@ -13,7 +13,8 @@
 4) pridict/ccxt_v6.py
   ccxt, binance를 이용하여 선물거래. test_data/ccxt_binance_v6.jpg 를 1분마다 갱신하여 이미지 패턴 인식.
   
-4-1) pridict_3.py
+  4-1) pridict_3.py
     test셋에 대해 검증 (long, short, neutral)
-4-2) telegram_bot_Xl.py
+    
+  4-2) telegram_bot_Xl.py
     텔레그램으로 메시지 발송
