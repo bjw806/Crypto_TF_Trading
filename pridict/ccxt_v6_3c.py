@@ -111,7 +111,6 @@ def ccxt_graph():
     vx_15m.axis('off')
 
     plt.savefig('../test_data/ccxt_binance_v6.jpg', bbox_inches='tight')  # uuid.uuid4()
-    # plt.show()
     plt.cla()  # 좌표축을 지운다.
     plt.clf()  # 현재 Figure를 지운다.
 
@@ -180,7 +179,6 @@ def trade(input_pos, precision):
             elif (input_pos == 'n/a long'):
                 if (my_position == 'long'):
                     close_long_position()
-        # telegram_bot.send_info()
     else:
         if (input_pos == 'long'):
             if (my_position == 'short'):
@@ -348,9 +346,6 @@ if __name__ == "__main__":
             print("My Position:", my_position)
             print("unrealizedProfit:", margin)
             print("\r\n")
-        # if(sec == '00'):
-        #    re_info()
-        #    TIME.sleep(1)
         if ((min == '10' or min == '20' or min == '30' or min == '40' or min == '50' or min == '00') and sec == '00'):
             print_my_info()
             # ccxt_graph()
